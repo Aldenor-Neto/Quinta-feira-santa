@@ -66,12 +66,16 @@ ul li a:hover {
 }
 
 .wrap {
-    display: flex;
-    width: 100vw; 
-    align-items: flex-start;
-    justify-content: flex-start;
+    padding: 5% 15%;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
 }
 
+.imagem{
+    width: 100%;
+}
 @media all and (max-width: 480px) {
     .wrap {
         display: block;
